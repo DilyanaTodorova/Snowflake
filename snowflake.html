@@ -1,0 +1,48 @@
+<html>
+  <head>
+    <title>Koch Snowflake Fractal</title>
+    <link rel="stylesheet" title="style" href="style.css">
+    <script type="text/javascript" src="fractal.js"></script>
+  	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  </head>
+
+  <body onload="init(iteration);">
+  	
+  <div id="wrapper">
+    <div id="header">
+    	<h1>Снежинка на Кокс</h1>
+    </div>
+    <div id="container">
+    <p class="center biggerfont">Текуща итерация <span id="iterationCounter">0<span></p>
+	  <canvas id="imageView" width="550" height="510">
+	  За съжаление използвания от вас браузър не поддържа новите стандарти. 
+	  Моля използвайте по-нова версия
+	  </canvas>
+	  
+	   <div id="controls">
+	   <ul>
+	   	<li><a class="large button red" onclick="next_iteration(1);">Следваща итерация</a></li>
+	   	<li><a class="large button red" onclick="next_iteration(-1);">Предишна итерация</a></li>
+	   <ul>
+    </div>
+	</div>
+    <div id="kox">
+    	<div id="kox_information">
+    	<h1>Нийлс Кокс</h1>
+    	<p class="indent">Нийлс Кокс е шведски математик, живял през 20ти век. 
+    	През 1904 година Кокс публикува труд, в който описва специален вид - наречена също на негово име и използвана за образуването на фрактала снежинка.</p>
+    	<h2>Крива на Кокс</h2>
+    	<p class="indent">Кокс описва права крива, която се разделя на три равни части. Средната част на кривата образува равностранен триъгълник, след което средната третина от отсечката се премахва. Така кривата е вече начупена. Тава представлява първата итерация. Кривата може да се начупва безкраен брой пъти.</p>
+    	<h2>Снежинка на Кокс</h2>
+    	<p class="indent">Снежинката започва като равностранен триъгълник. Всяка една страна представлява права на Кокс, която се начупва експоненциално, образувайки снежинка.</p>
+    	</div>
+    </div>
+    
+    <div id="footer"><p class="center">Диляна Тодорова, 71128</p>
+    <p class="center">ФМИ, 2012</p>
+    </div>
+    
+    </div>
+  </body>
+</html>
+                    

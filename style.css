@@ -1,0 +1,87 @@
+body,
+html {
+	margin:0;
+	padding:0;
+	color:#46433a;
+	background:#ded4b9;
+}
+#wrapper 	{ width:850px; margin:0 auto; }
+#header 	{ border-bottom: 3px solid #46433a; margin-bottom: 15px;}
+
+h1 {
+	padding-top: 25px;
+	font-size: 45px;
+	font-weight:bold;
+	text-align: center;
+}
+
+h2 			{ text-align: center;	 }
+p			{ padding : 0;	margin : 0; }
+#imageView 	{ padding : 0; margin : 0; }
+
+#controls ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#controls 	li{ float: right; padding: 45px; }
+
+#container {
+	background:#ded4b9;
+	width: 550px;
+	float: left;
+	padding: 0;
+}
+#imageView		{ padding: 0; margin: 0; }
+p.center		{ text-align: center; }
+p.biggerfont	{ font-size: 25px; }
+p.indent		{ text-indent: 15px; }
+#kox{
+	float: right;
+	background: #64B6B1;
+	box-shadow: 2px 1px 10px 2px #46433a;
+	width:200px;
+	padding: 15px;
+}
+#kox_information { border: 1px dashed #46433a; padding: 5px; }
+#footer { clear: both; }
+
+.button {
+	display: inline-block;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	font: 14px/100% Arial, Helvetica, sans-serif;
+	padding: .5em 2em .55em;
+	text-shadow: 0 1px 1px rgba(0,0,0,.3);
+	-webkit-border-radius: .5em; 
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+.button:hover 		{ text-decoration: none; }
+.button:active 		{  position: relative; top: 1px; }
+
+.button, .button:visited {
+	background: #222 url(overlay.png) repeat-x; 
+	display: inline-block; 
+	padding: 5px 10px 6px; 
+	color: #fff; 
+	text-decoration: none;
+	-moz-border-radius: 6px; 
+	-webkit-border-radius: 6px;
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.6);
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.6);
+	text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+	border-bottom: 1px solid rgba(0,0,0,0.25);
+	position: relative;
+	cursor: pointer
+}
+.button:hover							{ background-color: #111; color: #fff; }
+.button:active							{ top: 1px; }
+.large.button, .large.button:visited 	{ font-size: 14px; padding: 8px 14px 9px; }
+.red.button, .red.button:visited		{ background-color: #e62727; }
+.red.button:hover						{ background-color: #cf2525; }
